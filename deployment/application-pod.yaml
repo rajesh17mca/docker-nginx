@@ -6,7 +6,7 @@ metadata:
   name: custom-nginx-application
 spec:
   containers:
-  - image: rajesh17mca/my-custom-nginx
+  - image: rajesh17mca/my-custom-nginx:latest
     name: custom-nginx-application
     
     resources: 
