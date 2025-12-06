@@ -8,7 +8,6 @@ spec:
   containers:
   - image: rajesh17mca/my-custom-nginx:latest
     name: custom-nginx-application
-    
     resources: 
       requests:
         cpu: "1"
